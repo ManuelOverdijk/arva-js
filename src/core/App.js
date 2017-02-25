@@ -7,7 +7,6 @@
 
  */
 
-import FastClick                from 'fastclick';
 import Engine                   from 'famous/core/Engine.js';
 import Context                  from 'famous/core/Context.js';
 import AnimationController      from 'famous-flex/AnimationController.js';
