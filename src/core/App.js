@@ -19,7 +19,6 @@ import {Injection}              from '../utils/Injection.js';
 import {Router}                 from './Router.js';
 
 import '../utils/hotfixes/Polyfills.js';
-import '../utils/hotfixes/FamousKeyboardOffset.js';
 import '../utils/hotfixes/DisableTextSelection.js';
 
 /**
