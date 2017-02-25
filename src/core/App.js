@@ -7,6 +7,7 @@
 
  */
 
+import FastClick                from 'fastclick';
 import Engine                   from 'famous/core/Engine.js';
 import Context                  from 'famous/core/Context.js';
 import AnimationController      from 'famous-flex/AnimationController.js';
@@ -42,7 +43,7 @@ export class App {
         /* Allow user taps to emit immediately as click events,
          * instead of having the default 300ms delay. */
         FastClick(document.body);
-        
+
         /* Add default class providers to DI engine */
         Injection.addProviders(defaultDataSource, defaultRouter, FamousContextSingleton, NewAnimationController);
         
